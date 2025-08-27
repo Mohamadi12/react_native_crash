@@ -8,6 +8,7 @@ const Home = () => {
       <Link href="/about">About</Link>
       <Link href="/profile">Profile</Link>
       <Link href="/products">Products</Link>
+      <Link href="/missing-route">Missing Route</Link>
     </View>
   );
 };
