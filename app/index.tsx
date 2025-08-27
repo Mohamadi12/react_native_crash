@@ -3,10 +3,11 @@ import { Text, View } from "react-native";
 
 const Home = () => {
   return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+    <View style={{ flex: 1,gap:20, justifyContent: "center", alignItems: "center" }}>
       <Text>Home Page</Text>
       <Link href="/about">About</Link>
       <Link href="/profile">Profile</Link>
+      <Link href="/products">Products</Link>
     </View>
   );
 };
